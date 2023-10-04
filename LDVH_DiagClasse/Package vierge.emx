@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.6-->
+<!--Rational Software Architect Designer 9.7.0-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_QmclQGEJEe6jEI2pfAXtTA" name="Package vierge">
@@ -30,7 +30,7 @@
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_jTqSUGEJEe6jEI2pfAXtTA" type="OperationCompartment"/>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_jTq5YGEJEe6jEI2pfAXtTA" visible="false" type="SignalCompartment"/>
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_jTq5YWEJEe6jEI2pfAXtTA" visible="false" type="StructureCompartment"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jTnPAWEJEe6jEI2pfAXtTA" x="4752" y="8916" width="4786" height="3091"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jTnPAWEJEe6jEI2pfAXtTA" x="3696" y="8916" width="5844" height="4784"/>
       </children>
       <children xmi:type="umlnotation:UMLShape" xmi:id="_kKYe8GEJEe6jEI2pfAXtTA" element="_kKVboGEJEe6jEI2pfAXtTA" fontName="Cantarell" fontHeight="8" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
         <children xmi:type="notation:DecorationNode" xmi:id="_kKZtEGEJEe6jEI2pfAXtTA" type="ImageCompartment">
@@ -56,7 +56,7 @@
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_lcfnEWEJEe6jEI2pfAXtTA" type="OperationCompartment"/>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_lcgOIGEJEe6jEI2pfAXtTA" visible="false" type="SignalCompartment"/>
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_lcgOIWEJEe6jEI2pfAXtTA" visible="false" type="StructureCompartment"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lcdx4WEJEe6jEI2pfAXtTA" x="12276" y="13860" width="4574" height="2615"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lcdx4WEJEe6jEI2pfAXtTA" x="11352" y="13860" width="5500" height="3673"/>
       </children>
       <children xmi:type="umlnotation:UMLShape" xmi:id="_mMJiYGEJEe6jEI2pfAXtTA" element="_mMHGIGEJEe6jEI2pfAXtTA" fontName="Cantarell" fontHeight="8" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
         <children xmi:type="notation:DecorationNode" xmi:id="_mMKwgGEJEe6jEI2pfAXtTA" type="ImageCompartment">
@@ -287,7 +287,7 @@
           <children xmi:type="notation:ListCompartment" xmi:id="_CCsygGEKEe6jEI2pfAXtTA" type="FromConstraintCompartment"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_CCsLdGEKEe6jEI2pfAXtTA" y="1058"/>
         </children>
-        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CCnS8WEKEe6jEI2pfAXtTA" points="[-2146, 149, -8994, -3213]$[-2146, 3275, -8994, -87]$[4601, 3275, -2247, -87]"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CCnS8WEKEe6jEI2pfAXtTA" points="[-2145, 234, -8930, -2049]$[-2145, 3519, -8930, 1236]$[4075, 3519, -2710, 1236]"/>
         <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C-7KMGEKEe6jEI2pfAXtTA" id="(0.6211867948182198,0.9501779359430605)"/>
       </edges>
       <edges xmi:type="umlnotation:UMLConnector" xmi:id="_GevgAGEKEe6jEI2pfAXtTA" element="_GemWEGEKEe6jEI2pfAXtTA" source="_kKYe8GEJEe6jEI2pfAXtTA" target="_lcdx4GEJEe6jEI2pfAXtTA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -496,6 +496,12 @@
     <ownedOperation xmi:id="_z1ALcGEOEe6jEI2pfAXtTA" name="seDeplacer">
       <ownedParameter xmi:id="_2jOsQGEOEe6jEI2pfAXtTA" name="Section"/>
     </ownedOperation>
+    <ownedOperation xmi:id="_Cvi1AGK4Ee6qlLwTwETHug" name="Livre"/>
+    <ownedOperation xmi:id="_VJGsoGLAEe6qlLwTwETHug" name="setTitre">
+      <ownedParameter xmi:id="_bPWSIGLAEe6qlLwTwETHug" name="titre">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_jTjkoGEJEe6jEI2pfAXtTA" name="Section">
     <ownedAttribute xmi:id="_t3myMGEJEe6jEI2pfAXtTA" name="livre" visibility="private" type="_b3k7QGEJEe6jEI2pfAXtTA" association="_t3grkGEJEe6jEI2pfAXtTA">
@@ -546,6 +552,8 @@
       <ownedParameter xmi:id="_l4kFwGEOEe6jEI2pfAXtTA" name="inventaire" type="_mYoF4GEOEe6jEI2pfAXtTA"/>
     </ownedOperation>
     <ownedOperation xmi:id="_gmk80GEQEe6jEI2pfAXtTA" name="retirerObjet"/>
+    <ownedOperation xmi:id="_3TfpcGKsEe6qlLwTwETHug" name="ajouterPrerequis"/>
+    <ownedOperation xmi:id="_-QZxMGKsEe6qlLwTwETHug" name="retirerPrerequis"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_kKVboGEJEe6jEI2pfAXtTA" name="Enchainement">
     <ownedAttribute xmi:id="_uoZV8GEJEe6jEI2pfAXtTA" name="a" visibility="private" type="_jTjkoGEJEe6jEI2pfAXtTA" association="_uoWSoGEJEe6jEI2pfAXtTA">
@@ -621,6 +629,7 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
       </ownedParameter>
     </ownedOperation>
+    <ownedOperation xmi:id="_smIt4GK3Ee6qlLwTwETHug" name="GestionLivre"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_e9zIgGENEe6jEI2pfAXtTA" memberEnd="_e9zvkGENEe6jEI2pfAXtTA _e91kwGENEe6jEI2pfAXtTA"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_iTRPgGENEe6jEI2pfAXtTA" memberEnd="_iTTEsGENEe6jEI2pfAXtTA _iTWIAGENEe6jEI2pfAXtTA"/>
