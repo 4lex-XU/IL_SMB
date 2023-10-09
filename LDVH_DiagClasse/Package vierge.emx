@@ -86,7 +86,7 @@
         </children>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_IY-GImEMEe6jEI2pfAXtTA" visible="false" type="SignalCompartment"/>
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_IY-tMGEMEe6jEI2pfAXtTA" visible="false" type="StructureCompartment"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IY8Q8WEMEe6jEI2pfAXtTA" x="18744" y="2112" width="5765" height="3938"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IY8Q8WEMEe6jEI2pfAXtTA" x="18744" y="2112" width="5765" height="6605"/>
       </children>
       <element xsi:nil="true"/>
       <edges xmi:type="umlnotation:UMLConnector" xmi:id="_t3y_cGEJEe6jEI2pfAXtTA" element="_t3grkGEJEe6jEI2pfAXtTA" source="_b3980GEJEe6jEI2pfAXtTA" target="_jTnPAGEJEe6jEI2pfAXtTA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -592,6 +592,7 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GeoLQWEKEe6jEI2pfAXtTA" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GeoLQGEKEe6jEI2pfAXtTA" value="1"/>
     </ownedAttribute>
+    <ownedAttribute xmi:id="_2AazgGaHEe6DhIvO4MNO8A" name="id ; Integer" visibility="private"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_lcb8sGEJEe6jEI2pfAXtTA" name="Objet">
     <generalization xmi:id="_Mq78gGEKEe6jEI2pfAXtTA" general="_mMHGIGEJEe6jEI2pfAXtTA"/>
@@ -657,6 +658,33 @@
     <ownedOperation xmi:id="_LtRGIGT2Ee6OMLEndNtuMg" name="getAllLivre">
       <ownedParameter xmi:id="_00A5oGT5Ee6OMLEndNtuMg" name="Parameter1" type="_mYoF4GEOEe6jEI2pfAXtTA" direction="return"/>
     </ownedOperation>
+    <ownedOperation xmi:id="_RMywIGaGEe6DhIvO4MNO8A" name="creerEnchainement"/>
+    <ownedOperation xmi:id="_VsNhwGaGEe6DhIvO4MNO8A" name="afficheProprietesEnchainment"/>
+    <ownedOperation xmi:id="_dJr_8GaGEe6DhIvO4MNO8A" name="majDonneesEnchainement">
+      <ownedParameter xmi:id="_hk4Y4GaGEe6DhIvO4MNO8A" name="String"/>
+      <ownedParameter xmi:id="_hk4Y4WaGEe6DhIvO4MNO8A" name="Section"/>
+      <ownedParameter xmi:id="_hk4Y4maGEe6DhIvO4MNO8A" name="Array"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_jtzNMGaGEe6DhIvO4MNO8A" name="verifChampsEnchainement">
+      <ownedParameter xmi:id="_o1xzoGaGEe6DhIvO4MNO8A" name="description">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://udplibraries/Data.emx#_y0ffsEpwEdyPUYGz1ZB-lg?Data%20(deprecated)/simple/String?"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_IqIEIGaJEe6DhIvO4MNO8A" name="d" type="_jTjkoGEJEe6jEI2pfAXtTA"/>
+      <ownedParameter xmi:id="_o1xzoWaGEe6DhIvO4MNO8A" name="a" type="_jTjkoGEJEe6jEI2pfAXtTA"/>
+      <ownedParameter xmi:id="_o1xzomaGEe6DhIvO4MNO8A" name="objets : Array"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_53NCYGaIEe6DhIvO4MNO8A" name="ouvrirEnchainement">
+      <ownedParameter xmi:id="_7BFbkGaIEe6DhIvO4MNO8A" name="idEnchainement">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://udplibraries/Data.emx#_yzAR8EpwEdyPUYGz1ZB-lg?Data%20(deprecated)/simple/Integer?"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_-tLdYGaJEe6DhIvO4MNO8A" name="supprimerEnchainement">
+      <ownedParameter xmi:id="_AJ56EGaKEe6DhIvO4MNO8A" name="idE">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_WJD5AGaKEe6DhIvO4MNO8A" name="cancelEdition"/>
+    <ownedOperation xmi:id="_pFiUoGaLEe6DhIvO4MNO8A" name="afficheMessageErreur"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_e9zIgGENEe6jEI2pfAXtTA" memberEnd="_e9zvkGENEe6jEI2pfAXtTA _e91kwGENEe6jEI2pfAXtTA"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_iTRPgGENEe6jEI2pfAXtTA" memberEnd="_iTTEsGENEe6jEI2pfAXtTA _iTWIAGENEe6jEI2pfAXtTA"/>
